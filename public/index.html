@@ -11,37 +11,37 @@
 <body class="container">
     <main class="container">
         <h1>Gerador de Senhas</h1>
-        <p>Gere uma senha aleatório de até 20 caracteres.</p>
+        <p>Gere uma senha aleatória de até 20 caracteres.</p>
 
         <div id="senha-aleatoria">sdasdasdasdsad</div>
 
         <form action="">
-            <div class="campo">
-                <label for="qtd-caracteres">Quantidade de caracteres</label>
-                <input type="number" name="qtd-caracteres" id="qtd-caracteres" min="1" max="20">
+            <div class="campo container">
+                <label for="qtd-caracteres">Quantidade de caracteres:</label>
+                <input type="number" name="qtd-caracteres" id="qtd-caracteres" min="1" max="20" required>
             </div>
 
-            <div class="campo">
+            <div class="campo container">
                 <label for="checkbox-maiusculas">Adicionar Letras Maiúsculas</label>
                 <input type="checkbox" name="checkbox-maiusculas" id="checkbox-maiusculas">
             </div>
 
-            <div class="campo">
+            <div class="campo container">
                 <label for="checkbox-minusculas">Adicionar Letras Minúsculas</label>
                 <input type="checkbox" name="checkbox-minusculas" id="checkbox-minusculas">
             </div>
 
-            <div class="campo">
+            <div class="campo container">
                 <label for="checkbox-numeros">Adicionar números</label>
                 <input type="checkbox" name="checkbox-numeros" id="checkbox-numeros">
             </div>
 
-            <div class="campo">
+            <div class="campo container">
                 <label for="checkbox-simbolos">Adicionar símbolos</label>
                 <input type="checkbox" name="checkbox-simbolos" id="checkbox-simbolos">
             </div>
 
-            <button type="button" id="botao-enviar"></button>
+            <button type="button" id="botao-enviar">Gerar Senha</button>
         </form>
 
     </main>
