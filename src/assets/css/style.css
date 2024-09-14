@@ -5,6 +5,7 @@
     --azul: #0d6a86;
     --azul-escuro: #083644;
     --branco: #ffffff;
+    --azul-claro: #38e0d1;
 }
 
 * {
@@ -46,7 +47,7 @@ main p {
 div#senha-aleatoria {
     margin: 30px 0;
     font-size: 40px;
-    color: #38e0d1;
+    color: var(--azul-claro);
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -57,12 +58,16 @@ form div.campo {
 }
 
 form div.campo label {
-    margin: 10px 0 10px 0;
+    margin: 10px 0;
     font-size: 18px;
 }
 
 form div.campo input {
     height: 30px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
 }
 
 form div.campo input:focus {
